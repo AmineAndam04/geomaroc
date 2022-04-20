@@ -1,7 +1,13 @@
 # Welcome to geomaroc
-**A Python library to make working with geospatial data of Morocco easier.**
+
 ![geomaroc_logo](https://user-images.githubusercontent.com/49843367/164335838-537f0514-ce89-43ed-956f-c6c6de6ed264.png)
 
+
+**A Python library to make working with geospatial data of Morocco easier.**
+
+-   GitHub repo: <https://github.com/AmineAndam04/geomaroc>
+-   PyPI: 
+-   Raw data: <https://github.com/AmineAndam04/geomaroc-Raw-data>
 ## Introduction
 
 People who work in data science are seeing  increased need to work with geospatial data, especially for visualization purposes (e.g. during the covid-19 pandemic).Geopandas is a very popular geospatial library in python that extends Pandas to allow spatial operations on geometrics types.
