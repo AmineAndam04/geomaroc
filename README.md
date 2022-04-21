@@ -16,11 +16,11 @@ Working with geopands requires having access to coordinates of the items of our 
 
 **Geomaroc** helps the user get those coordinates easly.This library aims to fix these problem by:
 
--     1. providing methods to automatically get the boundary coordinates to plot maps of Morocco **without having acces to shapefiles.**
+     1. providing methods to automatically get the boundary coordinates to plot maps of Morocco **without having acces to shapefiles.**
       
--     2. providing access to the coordinates of low-level administrative subdivisions (e.g. province, prefecture, districs).
+     2. providing access to the coordinates of low-level administrative subdivisions (e.g. province, prefecture, districs).
       
--     3. providing access to the complete map of  Morocco (including the southern regions of Morocco)
+     3. providing access to the complete map of  Morocco (including the southern regions of Morocco)
 
 ## Requirements
 
