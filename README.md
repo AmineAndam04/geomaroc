@@ -29,6 +29,8 @@ Working with geopands requires having access to coordinates of the items of our 
 
 
 ## Requirements
-
+geomaroc library needs the following packages :**pandas**, **geopandas**, **shapely**, **json** and **importlib**.
 ## Install
 soon
+
+## Raw data
