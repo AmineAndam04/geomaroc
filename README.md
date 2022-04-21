@@ -24,8 +24,7 @@ Working with geopands requires having access to coordinates of the items of our 
 
 **illustration:**
 
-![geomaroc_illustration](https://user-images.githubusercontent.com/49843367/164404630-164f6edf-8009-4446-9eb3-8974d2ca2ec9.png)
-
+![geomaroc_illustration](https://user-images.githubusercontent.com/49843367/164408074-90bd2a9e-a458-4819-a268-4e499d4cb74e.png)
 
 
 ## Requirements
