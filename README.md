@@ -24,12 +24,18 @@ Working with geopands requires having access to coordinates of the items of our 
 
 **illustration:**
 
-![geomaroc_illustration](https://user-images.githubusercontent.com/49843367/164408074-90bd2a9e-a458-4819-a268-4e499d4cb74e.png)
+![pic2](https://user-images.githubusercontent.com/49843367/164767535-ed77f71a-6610-4abc-a9f9-bb5c54ed4890.png)
 
 
 ## Requirements
 geomaroc library needs the following packages :**pandas**, **geopandas**, **shapely**, **json** and **importlib**.
 ## Install
 soon
+## gallery
 
+![pic2](https://user-images.githubusercontent.com/49843367/164767535-ed77f71a-6610-4abc-a9f9-bb5c54ed4890.png)
+![pic3](https://user-images.githubusercontent.com/49843367/164767545-31ebbdd9-49ff-472e-a396-7e94c2964547.png)
+![pic4](https://user-images.githubusercontent.com/49843367/164767547-4e9f179e-1e8b-4478-b099-ff9d93d92b2c.png)
+![pic5](https://user-images.githubusercontent.com/49843367/164767553-00114d1f-17d5-4b1e-994b-0d7f9642235e.png)
+![pic1](https://user-images.githubusercontent.com/49843367/164767555-e9acaa22-9891-40c2-a7b3-37726c985746.png)
 ## Raw data
