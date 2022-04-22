@@ -97,6 +97,8 @@ gp=geomaroc.geomaroc.getProvince(id_region=[571,51,511])
 gp.plot()
 ```
 -  Regions() & Provinces() : Hepls to respect the notation and to get the id of each region and province
+## Raw data
+Visit [geomaroc raw data](https://github.com/AmineAndam04/geomaroc-Raw-data)
 ## gallery
 
 ![pic2](https://user-images.githubusercontent.com/49843367/164767535-ed77f71a-6610-4abc-a9f9-bb5c54ed4890.png)
@@ -104,4 +106,3 @@ gp.plot()
 ![pic4](https://user-images.githubusercontent.com/49843367/164767547-4e9f179e-1e8b-4478-b099-ff9d93d92b2c.png)
 ![pic5](https://user-images.githubusercontent.com/49843367/164767553-00114d1f-17d5-4b1e-994b-0d7f9642235e.png)
 ![pic1](https://user-images.githubusercontent.com/49843367/164767555-e9acaa22-9891-40c2-a7b3-37726c985746.png)
-## Raw data
