@@ -24,6 +24,8 @@ Working with geopands requires having access to coordinates of the items of our 
 
 **illustration:**
 
+To generate those plots go to [This notebook](https://github.com/AmineAndam04/geomaroc/blob/main/Geomaroc_Example.ipynb)
+
 ![pic2](https://user-images.githubusercontent.com/49843367/164767535-ed77f71a-6610-4abc-a9f9-bb5c54ed4890.png)
 
 
