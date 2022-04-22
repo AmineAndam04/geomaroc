@@ -30,7 +30,73 @@ Working with geopands requires having access to coordinates of the items of our 
 ## Requirements
 geomaroc library needs the following packages :**pandas**, **geopandas**, **shapely**, **json** and **importlib**.
 ## Install
-soon
+```python
+pip install BVCscrap
+import BVCscrap as load
+```
+## Usage
+-   getRegion() :Helps to plot the shape of each region.
+```python
+import geomaroc
+## working with n_region
+gp=geomaroc.getRegion("Casablanca-Settat")
+gp.plot()
+## working with id_region
+gp=geomaroc.getRegion(id_region=6) # Attention!! don't write geomaroc.getRegion(6)
+gp.plot()
+```
+
+-   getMultiRegion() :Helps to plot the shape of multiple regions.
+```python
+import geomaroc
+## working with n_region
+gp=geomaroc.getMultiRegion(["Casablanca-Settat",Draa-Tafilalet])
+gp.plot()
+## working with id_region
+gp=geomaroc.getMultiRegion(id_region=[6,8]) 
+gp.plot()
+```
+-   getProvince() :Helps to plot the shape of provinces within a region.
+```python
+import geomaroc
+## working with n_region
+gp=geomaroc.getProvince("Casablanca-Settat")
+gp.plot()
+## working with id_region
+gp=geomaroc.getProvince(id_region=6)
+gp.plot()
+```
+-   getMultiProvince(): Helps to plot the shape of provinces in multiple regions.
+```python
+import geomaroc
+## working with n_region
+gp=geomaroc.getMultiProvince(["Casablanca-Settat",Draa-Tafilalet])
+gp.plot()
+## working with id_region
+gp=geomaroc.getMultiProvince(id_region=[6,8])
+gp.plot()
+```
+-   getDistrict(): Helps to plot the shape of districts within a province.
+```python
+import geomaroc
+## working with n_province
+geomaroc.getDistrict("Tetouan")
+gp.plot()
+## working with id_province
+gp=geomaroc.getProvince(id_region=571)
+gp.plot()
+```
+-   getMultiDistrict(): Helps to plot the shape of districts in multiple provinces.
+```python
+import geomaroc
+## working with n_province
+gp=geomaroc.gp=geomaroc.getMultiDistrict(["Tetouan","Tanger-Assilah","Al-Hoceima"])
+gp.plot()
+## working with id_province
+gp=geomaroc.geomaroc.getProvince(id_region=[571,51,511])
+gp.plot()
+```
+-  Regions() & Provinces() : Hepls to respect the notation and to get the id of each region and province
 ## gallery
 
 ![pic2](https://user-images.githubusercontent.com/49843367/164767535-ed77f71a-6610-4abc-a9f9-bb5c54ed4890.png)
