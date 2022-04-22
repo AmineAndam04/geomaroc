@@ -1,6 +1,7 @@
 import json
 import importlib.resources
 
+
 def regionById(id_region):
     path=importlib.resources.open_text("geomaroc.data", "region_id.json").name
     ids=open(path)
