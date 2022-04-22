@@ -6,7 +6,7 @@
 **A Python library to make working with geospatial data of Morocco easier.**
 
 -   GitHub repo: <https://github.com/AmineAndam04/geomaroc>
--   PyPI: 
+-   PyPI: <https://pypi.org/project/geomaroc/>
 -   Raw data: <https://github.com/AmineAndam04/geomaroc-Raw-data>
 ## Introduction
 
