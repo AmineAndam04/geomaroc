@@ -33,8 +33,8 @@ To generate those plots go to [Gallery](https://github.com/AmineAndam04/geomaroc
 geomaroc library needs the following packages :**pandas**, **geopandas**, **shapely**, **json** and **importlib**.
 ## Install
 ```python
-pip install BVCscrap
-import BVCscrap as load
+pip install geomaroc
+import geomaroc 
 ```
 ## Usage
 -   getRegion() :Helps to plot the shape of each region.
