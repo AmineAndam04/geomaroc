@@ -99,6 +99,64 @@ gp=geomaroc.geomaroc.getProvince(id_region=[571,51,511])
 gp.plot()
 ```
 -  Regions() & Provinces() : Hepls to respect the notation and to get the id of each region and province
+
+## Notation 
+We adpoted this methode to work with names and id of regions,provinces and districts :
+- replace "é" with "e"
+- replace "è" with "e"
+- replace " " with "-"
+- replace "â" with "a"
+- 
+So "Tanger-Tétouan-Al Hoceima" becomes "Tanger-Tetouan-Al-Hoceima" and "Drâa-Tafilalet" becomes "Drâa-Tafilalet"
+
+Use geomaroc.Regions() and geomaroc.Provinces() to check the notations:
+```python
+region=geomaroc.Regions()
+region
+```
+
+```{r, engine='python', count_lines}
+{'Beni-Mellal-Khenifra': 5,
+ 'Casablanca-Settat': 6,
+ 'Draa-Tafilalet': 8,
+ 'Eddakhla-Oued-Eddahab': 12,
+ 'Fes-Meknes': 3,
+ 'Guelmim-Oued-Noun': 10,
+ 'Laayoune-Sakia-El-Hamra': 11,
+ 'Marrakech-Safi': 7,
+ 'Oriental': 2,
+ 'Rabat-Sale-Kenitra': 4,
+ 'Souss-Massa': 9,
+ 'Tanger-Tetouan-Al-Hoceima': 1}
+ 
+ ```
+ ```python
+ import pandas as pd
+provinces=geomaroc.Provinces()
+province=pd.DataFrame(columns=["Region","Id_region","Province","Id_province"])
+for i in range(len(provinces.keys())):
+    for j in range(len(provinces[list(provinces.keys())[i]])):
+        reg=list(provinces.keys())[i]
+        prov=list(provinces[reg].keys())[j]
+        province=province.append({"Region":reg,"Id_region":region[reg],"Province":prov,"Id_province":provinces[reg][prov]},ignore_index=True)
+province
+```
+
+```{r, engine='python', count_lines}
+	Region	                 Id_region	Province	Id_province
+0	Beni-Mellal-Khenifra	     5	     Khouribga	      311
+1	Beni-Mellal-Khenifra	     5	     Khenifra	      301
+2	Beni-Mellal-Khenifra	     5	     Azilal	      81
+3	Beni-Mellal-Khenifra	     5	     Beni-Mellal	 91
+4	Beni-Mellal-Khenifra	     5	     Fquih-Ben-Salah 255
+...	...	...	...	...
+70	Tanger-Tetouan-Al-Hoceima	1	     Mdiq-Fnidq	 573
+71	Tanger-Tetouan-Al-Hoceima	1	     Ouezzane	      405
+72	Tanger-Tetouan-Al-Hoceima	1	     Tanger-Assilah	 511
+73	Tanger-Tetouan-Al-Hoceima	1	     Tetouan	      571
+74	Tanger-Tetouan-Al-Hoceima	1	     Al-Hoceima	 51
+ ```    
+
 ## Raw data
 Visit [geomaroc raw data](https://github.com/AmineAndam04/geomaroc-Raw-data)
 ## gallery
