@@ -8,6 +8,8 @@
 -   GitHub repo: <https://github.com/AmineAndam04/geomaroc>
 -   PyPI: <https://pypi.org/project/geomaroc/>
 -   Raw data: <https://github.com/AmineAndam04/geomaroc-Raw-data>
+-   R version: https://github.com/AmineAndam04/R-geomaroc
+-   CRAN: https://CRAN.R-project.org/package=geomaroc
 ## Introduction
 
 People who work in data science are seeing  increased need to work with geospatial data, especially for visualization purposes (e.g. during the covid-19 pandemic).Geopandas is a very popular geospatial library in python that extends Pandas to allow spatial operations on geometrics types.
