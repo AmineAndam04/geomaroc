@@ -37,7 +37,7 @@ def getRegion(n_region=None,id_region=None):
     row_data["libelle_fr"]=row_data["libelle_fr"].replace("é","e").replace("è","e").replace("â","a").replace(" ","-")
     xy=getCoord(row_data["Coordinates"])
     row_data["Coordinates"]=shape({"type":"MultiPolygon","coordinates":xy})
-    df=pd.DataFrame(row_data)
+    df=pd.DataFrame(row_data,index=[0])
     return gpd.GeoDataFrame(df, geometry='Coordinates')
 
 def getMultiRegion(n_region=None,id_region=None):
@@ -144,7 +144,7 @@ def getMultiProvince(n_region=None,id_region=None):
     Example:
            ---> import geomaroc
            ---> ## working with n_region
-           ---> gp=geomaroc.getMultiProvince(["Casablanca-Settat",Draa-Tafilalet])
+           ---> gp=geomaroc.getMultiProvince(["Casablanca-Settat","Draa-Tafilalet"])
            ---> gp.plot()
            ---> ## working with id_region
            ---> gp=geomaroc.getMultiProvince(id_region=[6,8]) # Attention!! don't write geomaroc.getMultiProvince([6,8])
