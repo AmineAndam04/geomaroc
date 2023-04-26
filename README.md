@@ -1,3 +1,5 @@
+## 👋👋 We are looking for volunteers who are interested in taking over the maintenance and development of this library. If you are interested in contributing, please reach out to us or create an issue on GitHub to express your interest.
+
 # Welcome to geomaroc
 
 ![geomaroc_logo](https://user-images.githubusercontent.com/49843367/164335838-537f0514-ce89-43ed-956f-c6c6de6ed264.png)
